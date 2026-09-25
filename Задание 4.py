@@ -1,0 +1,5 @@
+a, b, c, d, e = map(int, input("Введите пять целых чисел через пробел: ").split())
+max_num=max(a, b, c, d, e)
+min_mux=min(a, b, c, d, e)
+print(max_num)
+print(min_mux)
